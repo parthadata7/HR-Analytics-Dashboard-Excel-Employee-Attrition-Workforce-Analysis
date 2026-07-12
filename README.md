@@ -5,7 +5,7 @@
 ---
 
 ### HR Analytics Dashboard
-![HR Analytics Dashboard]()
+![HR Analytics Dashboard](https://github.com/parthadata7/HR-Analytics-Dashboard-Excel-Employee-Attrition-Workforce-Analysis/blob/main/screenshots/hr_analytics_dashboard.PNG)
 
 ---
 
