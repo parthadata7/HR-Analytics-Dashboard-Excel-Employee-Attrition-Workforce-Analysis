@@ -113,6 +113,27 @@ This project addresses these challenges by presenting critical HR metrics in a *
 
 ---
 
+## DAX Measures Used
+
+The following DAX measures were created in Power BI to calculate key HR analytics metrics:
+
+| Measure | DAX Formula | Purpose |
+|---------|-------------|---------|
+| **Attrition Rate** | `attribution_rate = DIVIDE(CALCULATE(COUNT([EmpID]), Range[Attrition] = "YES"), COUNTROWS(Range))` | Calculates the percentage of employees who left the company. |
+| **Total Employees** | `total_employ = COUNTROWS(Range)` | Counts the total number of employees in the dataset. |
+| **Average Yearly Salary** | `average_salary_yearly = AVERAGE(Range[YearlyIncome])` | Calculates the average yearly income of employees. |
+| **Total Attrition** | `attribution_total = CALCULATE(COUNT([EmpID]), Range[Attrition] = "YES")` | Counts the total number of employees who left the organization. |
+| **Total Salary** | `total_salary = SUM(Range[YearlyIncome])` | Calculates the total yearly salary expenditure across all employees. |
+
+### Key Metrics Generated
+- 📊 Attrition Rate (%)
+- 👥 Total Employees
+- 💰 Average Yearly Salary
+- 🚪 Total Employee Attrition
+- 💵 Total Salary Expense
+
+---
+
 ## Dashboard Analysis
 
 The dashboard provides a comprehensive overview of workforce performance through multiple visualizations and KPI cards.
