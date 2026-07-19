@@ -279,11 +279,6 @@ These filters enable focused workforce analysis for specific employee groups.
 ## Contact
 
 **Name:** Partha Pratim Das
-
 **Email:** [parthadataanalyst@gmail.com](mailto:parthadataanalyst@gmail.com)
-
-**LinkedIn:** []()
-
+**LinkedIn:** [LinkedIn](linkedin.com/in/partha-pratim-das-01a579423) 
 **Portfolio:** []()
-
-**GitHub:** []()
